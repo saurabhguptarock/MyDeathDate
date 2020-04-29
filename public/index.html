@@ -78,9 +78,9 @@
 
         countdown.innerHTML = `
         <div>${days}<span>DAYS</span></div>
-        <div>${hours}<span>HOURS</span></div>
-        <div>${mins}<span>MINUTES</span></div>
-        <div>${sec}<span>SECONDS</span></div>
+        <div>${("0" + hours).slice(-2)}<span>HOURS</span></div>
+        <div>${("0" + mins).slice(-2)}<span>MINUTES</span></div>
+        <div>${("0" + sec).slice(-2)}<span>SECONDS</span></div>
         `;
       }, 1000);
     </script>
