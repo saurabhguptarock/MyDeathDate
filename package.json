@@ -1,22 +1,22 @@
 {
-  "name": "Death-Date",
+  "name": "MyDeathDate",
   "version": "1.0.0",
   "description": "My Death Date 😱",
   "main": "index.js",
   "scripts": {
-    "deploy": "gh-pages -d public"
+    "deploy": "gh-pages -d public/"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/saurabhguptarock/Death-Date.git"
+    "url": "git+https://github.com/saurabhguptarock/MyDeathDate.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/saurabhguptarock/Death-Date/issues"
+    "url": "https://github.com/saurabhguptarock/MyDeathDate/issues"
   },
-  "homepage": "https://saurabhguptarock.github.io/MyDeathDate",
+  "homepage": "https://saurabhguptarock,github.io/saurabhguptarock/MyDeathDate",
   "dependencies": {
     "gh-pages": "^2.2.0"
   }
