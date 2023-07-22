@@ -1,3 +1,30 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  margin: 0;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -o-user-select: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+  background: #000;
+  overflow: hidden;
+}
+.countdown div {
+  padding: 40px;
+  font-weight: 200;
+  @apply text-7xl md:text-8xl lg:text-[165px] 2xl:text-[240px];
+}
+.countdown span {
+  display: block;
+  font-weight: 200;
+  @apply pt-0 text-base md:pt-3 2xl:pt-5 md:text-lg lg:text-2xl 2xl:text-3xl;
+}
