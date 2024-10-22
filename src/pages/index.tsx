@@ -39,7 +39,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Death Date</title>
+        <title>Saurabh Death Date</title>
       </Head>
 
       <div className="container mx-auto">
